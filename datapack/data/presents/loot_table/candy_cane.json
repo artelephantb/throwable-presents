@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "poisonous_potato",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"text": "Candy Cane",
+									"color": "#00aeff"
+								},
+
+								"max_stack_size": 1,
+
+								"consumable": {
+									"consume_seconds": 1000000
+								},
+								"food": {
+									"nutrition": 0,
+									"saturation": 0,
+									"can_always_eat": true
+								},
+
+								"item_model": "presents:candy_cane",
+
+								"custom_data": {
+									"presents.item": true,
+									"presents.item.candy_cane": true
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
