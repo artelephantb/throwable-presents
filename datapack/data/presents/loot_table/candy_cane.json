@@ -10,6 +10,15 @@
 						{
 							"function": "set_components",
 							"components": {
+								"attribute_modifiers": [
+									{
+										"type": "movement_speed",
+										"id": "movement_speed",
+										"amount": 1,
+										"operation": "add_value"
+									}
+								],
+
 								"item_name": {
 									"text": "Candy Cane",
 									"color": "#00aeff"

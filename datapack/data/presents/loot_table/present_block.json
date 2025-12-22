@@ -1,0 +1,42 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "item_frame",
+					"functions": [
+						{
+							"function": "set_components",
+							"components": {
+								"item_name": {
+									"text": "Present",
+									"italic": false
+								},
+								"item_model": "presents:present",
+
+								"entity_data": {
+									"id": "item_frame",
+									"Tags": [
+										"presents.placement_block",
+										"present_block"
+									],
+									"Facing": 1,
+									"Invulnerable": true,
+									"Invisible": true,
+									"Fixed": true
+								},
+								
+								"custom_data": {
+									"presents.item": true,
+									"presents.item.name": "present_block"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
