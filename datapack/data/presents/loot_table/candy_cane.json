@@ -14,8 +14,8 @@
 									{
 										"type": "movement_speed",
 										"id": "movement_speed",
-										"amount": 1,
-										"operation": "add_value"
+										"amount": 5,
+										"operation": "add_multiplied_base"
 									}
 								],
 
