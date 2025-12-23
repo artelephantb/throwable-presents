@@ -8,6 +8,10 @@
 
 ### Present
 **Presents** can be thrown a small distance; When the present lands, it creates a storage container ready for you to fill it!
+
+> [!NOTE]
+> Presents do not contain any contents when placed, the player has to fill them up.
+
 ![Present Recipe](/images/recipies/present.png)
 
 ### Candy Cane
