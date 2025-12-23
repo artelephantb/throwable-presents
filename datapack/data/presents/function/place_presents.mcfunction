@@ -1,7 +1,7 @@
 execute unless block ~ ~ ~ air run return run kill @s
 
 playsound block.chain.break block @a
-setblock ~ ~ ~ stone
+execute align xyz positioned ~0.5 ~ ~0.5 run function presents:blocks/present/place
 
 
 execute if entity @s[tag=5] run return run function presents:place_presents/5
