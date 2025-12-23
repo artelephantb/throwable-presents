@@ -1,9 +1,18 @@
 # Throwable Presents
 # About
-**Throwable Presents** is a *datapack* for *Minecraft Java Edition*.
+**Throwable Presents** is a *datapack* for *Minecraft Java Edition*. This datapack introduces new items, recipies, and content to Minecraft!
 
-## License
-This project (excluding dependencies and *Minecraft* brand/assets), and its documentation, is free to be copied, redistributed, claimed as their own, or sublicensed in any manner; Copyright is *not* claimed on this project, so no credit is *needed* nor *expected*.
+## Present
+**Presents** can be thrown a small distance; When the present lands, it creates a storage container ready for you to fill it!
+![Present Recipe](/images/present.png)
+
+## Candy Cane
+Run fast with the **Candy Cane**, adding *500%* speed to the player when held.
+![Candy Cane Recipe](/images/candy_cane.png)
+
+## Gingerbread
+A delicous treat. The **Gingerbread** has nutrition of *5*, and saturation of *2*.
+![Gingerbread Recipe](/images/gingerbread.png)
 
 ## Notice
 *Mojang is not affiliated with this project*
