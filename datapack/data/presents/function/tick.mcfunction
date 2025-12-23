@@ -9,4 +9,4 @@ execute as @e[type=armor_stand, tag=presents.entity.present] at @s run function 
 execute as @e[tag=present_placer] at @s run function presents:place_presents
 
 # Handle blocks
-execute as @e[tag=presents.block] run function presents:tick_block
+execute as @e[tag=presents.block, tag=present_block] at @s run function presents:blocks/present/tick

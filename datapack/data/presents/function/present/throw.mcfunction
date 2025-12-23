@@ -10,3 +10,8 @@ kill @e[type=area_effect_cloud]
 
 data modify entity @n[type=armor_stand, tag=presents.entity.present] Rotation set from entity @s Rotation
 scoreboard players set @s presents.item.present.cooldown 10
+
+# Remove item
+execute if entity @s[gamemode=creative] run return fail
+execute if items entity @s weapon.mainhand poisonous_potato[custom_data={'presents.item':true, 'presents.item.present':true}] run return run item modify entity @s weapon.mainhand {'function':'set_count', 'count':-1, 'add':true}
+execute if items entity @s weapon.offhand poisonous_potato[custom_data={'presents.item':true, 'presents.item.present':true}] run return run item modify entity @s weapon.offhand {'function':'set_count', 'count':-1, 'add':true}

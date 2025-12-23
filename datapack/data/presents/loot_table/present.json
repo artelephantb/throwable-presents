@@ -15,7 +15,7 @@
 									"color": "#00aeff"
 								},
 
-								"max_stack_size": 1,
+								"max_stack_size": 32,
 
 								"consumable": {
 									"consume_seconds": 1000000
