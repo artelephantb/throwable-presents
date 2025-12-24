@@ -1,11 +1,12 @@
 {
 	"pack": {
+		"min_format": 94,
+		"max_format": 94,
 		"description": [
 			{
-				"text": "Presents!",
+				"text": "Adds new items, recipies, and unique content.",
 				"color": "#00aeff"
 			}
-		],
-		"pack_format": 94
+		]
 	}
 }
