@@ -4,6 +4,11 @@ scoreboard players add @e presents.item.present.age 1
 
 execute as @e[type=armor_stand, tag=presents.entity.present] at @s run function presents:present/update
 
+# Throwable ornaments
+scoreboard players remove @a presents.item.ornament.cooldown 1
+scoreboard players add @e presents.item.ornament.age 1
+
+execute as @e[type=armor_stand, tag=presents.entity.ornament] at @s run function presents:ornament/update
 
 # Growing presents
 execute as @e[tag=present_placer] at @s run function presents:place_presents

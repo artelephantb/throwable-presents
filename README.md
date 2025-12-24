@@ -14,6 +14,10 @@
 
 ![Present Recipe](/images/recipies/present.png)
 
+### Ornament
+A throwable glass object. The *Ornament*, like presents, can be thrown. When hitting the floor, they have no affect; When they hit a entity (excluding players), the ornament will shatter and cause damage to whomever is hit.
+![Ornament Recipe](/images/recipies/ornament.png)
+
 ### Candy Cane
 Run fast with the **Candy Cane**, adding *500%* speed to the player when held.
 ![Candy Cane Recipe](/images/recipies/candy_cane.png)

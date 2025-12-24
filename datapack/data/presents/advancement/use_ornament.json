@@ -1,0 +1,22 @@
+{
+	"criteria": {
+		"using_item": {
+			"trigger": "using_item",
+			"conditions": {
+				"item": {
+					"items": "poisonous_potato",
+					"components": {
+						"custom_data": {
+							"presents.item": true,
+							"presents.item.name": "ornament"
+						}
+					}
+				}
+			}
+		}
+	},
+
+	"rewards": {
+		"function": "presents:ornament/throw"
+	}
+}
